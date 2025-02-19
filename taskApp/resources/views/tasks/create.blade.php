@@ -6,34 +6,34 @@
 @csrf
 {{-- Task Name --}}
 <div class="mb-4">
-<!-- GUIDANCE:
-- Add a label for Task Name (e.g., <label for="task_name">Task Name</label>)
-- The label's 'for' should match the input's 'id'.
-- Create an <input type="text"> with name="task_name" and id="task_name".
-- Consider making it required.
-- Add a placeholder like "e.g., Take out trash".
--->
+
 <label for="task_name">Task Name</label>
-<input type="text"> with name="task_name" and id="task_name"
+<input require type="text" name="task_name" id="task_name" placeholder="Take out the TrASH">
+
 </div>
 {{-- Task Location --}}
 <div class="mb-4">
-<!-- GUIDANCE:
-- Add a label for "Location" (e.g., <label for="task_location">Location</label>)
-- The label's 'for' should match the input's 'id'.
-- Create an <input type="text"> with name="task_location" and id="task_location".
+
 - Indicate optional or required status.
-- Add a placeholder like "Kitchen, Garage," etc.
--->
+
+<label for="task_location">Location</label>
+<input type="text" name="task_location" id="task_location" placeholder="Kitchen">
+
 </div>
 {{-- Time Estimate (or Time Complexity) --}}
 <div class="mb-4">
 <!-- GUIDANCE:
-- Add a label for "Time Estimate" (e.g., <label for="time_complexity">Time Estimate</label>)
-- The label's 'for' should match the select's 'id'.
+
+
 - Create a <select> element with name="time_complexity" and id="time_complexity".
 - Add <option> items for 1-5, labeled as "10 min", "30 min", "1 hour", etc.
 -->
+<label for="time_complexity">Time Estimate</label>
+<select type="text" name="time_complexity" id="time_complexity" >
+<option>10 min</option>
+<option>30 min</option>
+<option>1 hour</option>
+
 </div>
 {{-- Materials Required (Optional) --}}
 <div class="mb-4">
