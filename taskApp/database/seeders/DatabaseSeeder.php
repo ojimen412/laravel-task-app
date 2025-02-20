@@ -26,21 +26,21 @@ class DatabaseSeeder extends Seeder
 ]);
  Task::create([
 
-'task_name' => 'Take out trash',
-'task_location' => 'Kitchen',
-'time_complexity' => 1, // (1 => ~10 min, 2 => ~30 min, etc.)
-'materials_required'=> 'Trash bags',
-'deadline' => '2025-02-20 10:00:00',
-'priority' => 2, // (1 => low, 2 => medium, 3 => high)
-'category' => 'chores'
+'task_name' => 'Prepare meeting Presentation',
+'task_location' => 'Office',
+'time_complexity' => 3, // (1 => ~10 min, 2 => ~30 min, etc.)
+'materials_required'=> 'Laptop',
+'deadline' => '2025-02-21 12:00:00',
+'priority' => 3, // (1 => low, 2 => medium, 3 => high)
+'category' => 'Work'
 ]);
  Task::create([
 
-'task_name' => 'Take out trash',
-'task_location' => 'Kitchen',
-'time_complexity' => 1, // (1 => ~10 min, 2 => ~30 min, etc.)
-'materials_required'=> 'Trash bags',
-'deadline' => '2025-02-20 10:00:00',
+'task_name' => 'Grocery Shopping',
+'task_location' => 'Supermarket',
+'time_complexity' => 3, // (1 => ~10 min, 2 => ~30 min, etc.)
+'materials_required'=> 'Wallet',
+'deadline' => '2025-02-21 10:00:00',
 'priority' => 2, // (1 => low, 2 => medium, 3 => high)
 'category' => 'chores'
 ]);
