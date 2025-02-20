@@ -33,12 +33,11 @@
 {{-- Materials Required (Optional) --}}
 <div class="mb-4">
 <!-- GUIDANCE:
-- Add a label for "Materials Required" (e.g., <label for="materials_required">Materials Requ
-- The label's 'for' should match the input's 'id'.
 - Create an <input type="text"> for name="materials_required".
 - Add a placeholder like "e.g., Trash Bags, Broom".
 -->
-<label for="materials_required">Materials Required</label>
+<label for="materials_required" id="materials_required">Materials Required</label>
+<input type="text">
 </div>
 {{-- Deadline (Optional) --}}
 <div class="mb-4">
