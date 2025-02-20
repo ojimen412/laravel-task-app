@@ -22,12 +22,7 @@
 </div>
 {{-- Time Estimate (or Time Complexity) --}}
 <div class="mb-4">
-<!-- GUIDANCE:
 
-
-- Create a <select> element with name="time_complexity" and id="time_complexity".
-- Add <option> items for 1-5, labeled as "10 min", "30 min", "1 hour", etc.
--->
 <label for="time_complexity">Time Estimate</label>
 <select type="text" name="time_complexity" id="time_complexity" >
 <option>10 min</option>
@@ -41,11 +36,9 @@
 - Add a label for "Materials Required" (e.g., <label for="materials_required">Materials Requ
 - The label's 'for' should match the input's 'id'.
 - Create an <input type="text"> for name="materials_required".
-2/19/25, 12:49 PM project-day2-instructions
-
-
 - Add a placeholder like "e.g., Trash Bags, Broom".
 -->
+<label for="materials_required">Materials Required</label>
 </div>
 {{-- Deadline (Optional) --}}
 <div class="mb-4">
