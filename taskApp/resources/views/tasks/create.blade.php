@@ -72,7 +72,7 @@
 - Add a link or button for "Cancel" that routes back to the homepage or tasks list.
 -->
 <button type="submit"></button>
-<link rel="stylesheet" href="localhost:8000">test</link>
+<link rel="stylesheet" href="localhost:8000/tasks">test</link>
 <button>cancel</button>
 </div>
 </form>
