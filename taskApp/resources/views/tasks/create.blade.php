@@ -37,7 +37,7 @@
 - Add a placeholder like "e.g., Trash Bags, Broom".
 -->
 <label for="materials_required" id="materials_required">Materials Required</label>
-<input type="text">
+<input type="text" >
 </div>
 {{-- Deadline (Optional) --}}
 <div class="mb-4">
