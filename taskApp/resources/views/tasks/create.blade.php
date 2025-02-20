@@ -14,7 +14,7 @@
 {{-- Task Location --}}
 <div class="mb-4">
 
-- Indicate optional or required status.
+
 
 <label for="task_location">Location</label>
 <input type="text" name="task_location" id="task_location" placeholder="Kitchen">
@@ -30,22 +30,19 @@
 <option>1 hour</option>
 
 </div>
-{{-- Materials Required (Optional) --}}
+
 <div class="mb-4">
-<!-- GUIDANCE:
-- Create an <input type="text"> for name="materials_required".
-- Add a placeholder like "e.g., Trash Bags, Broom".
--->
-<label for="materials_required" id="materials_required">Materials Required</label>
-<input type="text" >
+
+<label for="materials_required">Materials Required</label>
+<input type="text" name="materials_required" id="materials_required" placeholder="Broom">
+
 </div>
-{{-- Deadline (Optional) --}}
+
 <div class="mb-4">
-<!-- GUIDANCE:
-- Add a label for "Deadline" (<label for="deadline">Deadline</label>)
-- The label's 'for' should match the input's 'id'.
-- Create an <input type="datetime-local"> for name="deadline".
--->
+
+<label for="deadline">Deadline</label>
+<input type="datetime-local" name="deadline" id="deadline">
+
 </div>
 {{-- Priority (Optional) --}}
 <div class="mb-4">
@@ -55,15 +52,18 @@
 - Create a <select> for name="priority".
 - Provide <option> items like "Low (1)", "Medium (2)", "High (3)".
 -->
+<label for="priority">Priority</label>
+<select name="priority" id="priority">
+    <option value="">Low (1)</option>
+    <option value="">Medium (2)</option>
+    <option value="">High (3)</option>
+</select>
 </div>
 {{-- Category (Optional) --}}
 <div class="mb-4">
-<!-- GUIDANCE:
-- Add a label for "Category" (e.g., <label for="category">Category</label>)
-- The label's 'for' should match the input's 'id'.
-- Create an <input type="text"> for name="category".
-- Add a placeholder like "e.g., chores, work, health".
--->
+
+<label for="category">Category</label>
+<input type="text" name="category" id="category" placeholder="Work">
 </div>
 {{-- Submit and Cancel Buttons --}}
 <div class="flex gap-4">
@@ -71,6 +71,9 @@
 - Add a button for "Submit" or "Create Task" (type="submit").
 - Add a link or button for "Cancel" that routes back to the homepage or tasks list.
 -->
+<button type="submit"></button>
+<link rel="stylesheet" href="localhost:8000">test</link>
+<button>cancel</button>
 </div>
 </form>
 </div>
