@@ -1,7 +1,6 @@
 @extends('layouts.app')
-
 @section('content')
-    <h1 class="text-2xl font-bold mb-4">All Tasks</h1>
+<h1 class="text-2xl font-bold mb-4">All Tasks</h1>
 {{-- search and sort form --}}
 <form action="{{ route('tasks.index') }}" method="GET" class="mb-4">
 <!-- Search Field -->
@@ -41,6 +40,7 @@ View
 <li>No tasks yet.</li>
 @endforelse
 </ul>
+
 <div class="mt-4">
 <a href="{{ route('tasks.create') }}"
 class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">

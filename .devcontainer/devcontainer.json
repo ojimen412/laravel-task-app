@@ -13,6 +13,7 @@
 "features": {
 "ghcr.io/devcontainers/features/node:1": {}
 },
-"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/taskApp",
-"postCreateCommand": "composer install"
+"remoteUser": "vscode",
+"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+"postCreateCommand": "sudo chown -R vscode:vscode /workspaces/"
 }
