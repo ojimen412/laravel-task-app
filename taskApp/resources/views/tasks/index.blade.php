@@ -1,6 +1,7 @@
 @extends('layouts.app')
+
 @section('content')
-<h1 class="text-2xl font-bold mb-4">All Tasks</h1>
+    <h1 class="text-2xl font-bold mb-4">All Tasks</h1>
 {{-- search and sort form --}}
 <form action="{{ route('tasks.index') }}" method="GET" class="mb-4">
 <!-- Search Field -->

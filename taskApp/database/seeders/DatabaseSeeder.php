@@ -46,15 +46,24 @@ class DatabaseSeeder extends Seeder
 ]);
  Task::create([
 
-'task_name' => 'Take out trash',
-'task_location' => 'Kitchen',
+'task_name' => 'Walk the Dog',
+'task_location' => 'Park',
 'time_complexity' => 1, // (1 => ~10 min, 2 => ~30 min, etc.)
-'materials_required'=> 'Trash bags',
-'deadline' => '2025-02-20 10:00:00',
-'priority' => 2, // (1 => low, 2 => medium, 3 => high)
+'materials_required'=> 'Leash',
+'deadline' => '2025-02-20 10:15:00',
+'priority' => 1, // (1 => low, 2 => medium, 3 => high)
 'category' => 'chores'
 ]);
+ Task::create([
 
+'task_name' => 'Do School Homework',
+'task_location' => 'Library',
+'time_complexity' => 3, // (1 => ~10 min, 2 => ~30 min, etc.)
+'materials_required'=> 'Backpack',
+'deadline' => '2025-02-25 12:00:00',
+'priority' => 2, // (1 => low, 2 => medium, 3 => high)
+'category' => 'School'
+]);
 // add another Task::create([]); array for each item to seed
     }
 }
